@@ -1,0 +1,28 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random Star Wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/509dave16/startwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "star",
+    "wars",
+    "names"
+  ],
+  "author": "David S. Fall <davidfall@rocketmail.com> (http://509dave16.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/509dave16/startwars-names/issues"
+  },
+  "homepage": "https://github.com/509dave16/startwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
