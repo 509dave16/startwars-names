@@ -19,5 +19,6 @@ after_success:
   - npm run semantic-release
   - npm run build
 branches:
+  #whitelist
   only:
     - master
