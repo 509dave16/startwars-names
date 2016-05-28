@@ -1,5 +1,5 @@
-var starWars = require('./index');
-var expect = require('chai').expect;
+import starWars from './index';
+import {expect} from 'chai';
 
 describe('starwars-names', () => {
   describe('all', () => {
@@ -22,7 +22,7 @@ describe('starwars-names', () => {
     it('should return an array of random items from starWars.all if passed a number', () => {
       const randomItems = starWars.random(3);
       expect(randomItems).to.have.length(3);
-      randomItems.forEach((item) => expect(starWars.all).to.include(item) );
+      randomItems.forEach((item) => expect(starWars.all).to.include(item));
     });
   });
 });

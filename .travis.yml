@@ -12,11 +12,12 @@ before_install:
 before_script:
   - npm prune
 script:
-  - npm run test:single
+  - npm run cover
   - npm run check-coverage
 after_success:
   - npm run report-coverage
   - npm run semantic-release
+  - npm run build
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
