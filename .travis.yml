@@ -5,6 +5,7 @@ cache:
     - node_modules
 branches:
   only:
+  #Only this branch should be built!
    - master
 notifications:
   email: false
