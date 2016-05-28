@@ -3,10 +3,6 @@ language: node_js
 cache:
   directories:
     - node_modules
-branches:
-  only:
-  #Only this branch should be built!
-   - master
 notifications:
   email: false
 node_js:
@@ -23,5 +19,5 @@ after_success:
   - npm run semantic-release
   - npm run build
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - master
